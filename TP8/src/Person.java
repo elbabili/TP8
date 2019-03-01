@@ -11,6 +11,7 @@ public class Person {
 		this.fname = fname;
 		this.age = age;
 		this.address = address;
+		cityBirth = null;
 	}	
 	public Person(String name, String fname, int age, String address, City cityBirth) {
 		this.name = name;

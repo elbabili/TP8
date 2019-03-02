@@ -1,3 +1,4 @@
+package co.simplon.exception;
 
 public class TestException {
 	

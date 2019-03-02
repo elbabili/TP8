@@ -1,6 +1,6 @@
-package co.simplon.cars;
+package co.simplon.vehicles;
 
-public class Motorbike extends Vehicle {
+public class Motorbike extends Vehicle implements Motorized {
 
 	public Motorbike(int id, String brand, String type, String engine) {
 		super(id, brand, type, engine);
@@ -9,5 +9,11 @@ public class Motorbike extends Vehicle {
 	@Override
 	public String toString() {
 		return "Motorbike " + super.toString();
+	}
+
+	@Override
+	public void fillUp() {
+		// TODO Auto-generated method stub
+		
 	}	
 }

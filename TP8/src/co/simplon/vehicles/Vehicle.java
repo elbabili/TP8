@@ -1,4 +1,4 @@
-package co.simplon.cars;
+package co.simplon.vehicles;
 
 public class Vehicle {
 	private int id;
